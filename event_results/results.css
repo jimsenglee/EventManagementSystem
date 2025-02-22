@@ -1,0 +1,335 @@
+/*global start*/
+
+h1.result-h1 {
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.error {
+    color: white;
+    display: block;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.25em;
+    margin: 25px;
+    text-align: center;
+}
+
+.error a {
+    color: cyan;
+    text-decoration: none;
+}
+
+.displayRecords {
+    text-align: center;
+}
+
+.filter {
+    border-bottom: 3px solid black;
+    color: white;
+    display: inline-block;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.filter a {
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.success {
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.25em;
+    margin: 25px;
+    text-align: center;
+}
+
+.success a {
+    color: cyan;
+    text-decoration: none;
+}
+
+/*global end*/
+
+/*results.php start*/
+
+.main-content {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.icon {
+    height: 250px;
+    width: 225px;
+    margin: 10px;
+}
+
+.icon p {
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.5em;
+    margin: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.icon:hover p {
+    opacity: 1;
+}
+
+.icon img {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgba(128,128,128,0.5);
+    height: 225px;
+    width: 225px;
+    transition: transform 1.2s;
+}
+
+.icon img:hover {
+    background-color: rgba(255,255,255,0.5);
+    transform: scale(1.05);
+}
+
+/*results.php end*/
+
+/*results-view.php start*/
+
+.podium {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.winner img {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#first img {
+    border: 5px solid gold;
+    height: 250px;
+    width: 250px;
+}
+
+#first p {
+    color: gold;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+#second img {
+    border: 5px solid silver;
+    height: 200px;
+    width: 200px;
+}
+
+#second p {
+    color: silver;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.25em;
+    margin: 5px;
+}
+
+#third img {
+    border: 5px solid rgb(205,127,50);
+    height: 200px;
+    width: 200px;
+}
+
+#third p {
+    color: rgb(205,127,50);
+    font-family: Bahnschrift Semibold;
+    font-size: 1.25em;
+    margin: 5px;
+}
+
+.viewResults {
+    background-color: rgba(128,128,128,0.5);
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.viewResults th {
+    border: 2px solid black;
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.75em;
+    padding: 2px 5px;
+}
+
+.viewResults th a {
+    color: white;
+    text-decoration: none;
+}
+
+.viewResults td {
+    border: 2px solid black;
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1em;
+    padding: 2px 5px;
+}
+
+/*results-view.php end*/
+
+/*results-manage.php start*/
+
+.manageResults {
+    background-color: rgba(128,128,128,0.5);
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.manageResults th {
+    border: 2px solid black;
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.5em;
+    padding: 2px 5px;
+}
+
+.manageResults th a {
+    color: white;
+    text-decoration: none;
+}
+
+.manageResults td {
+    border: 2px solid black;
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1em;
+    padding: 2px 5px;
+}
+
+.manageResults td a {
+    color: red;
+    text-decoration: none;
+}
+
+.manageResults td img {
+    width: 15px;
+    height: 15px;
+}
+
+/*results-manage.php end*/
+
+/*results-edit.php start*/
+
+.editResults {
+    background-color: rgba(128,128,128,0.5);
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.editResults td {
+    border: 1px solid black;
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+.editForm input {
+    color: black;
+    font-family: Bahnschrift Semibold;
+    font-size: 1em;
+}
+
+.editForm select {
+    color: black;
+    font-family: Bahnschrift Semibold;
+    font-size: 1em;
+}
+
+/*results-edit.php end*/
+
+/*results-delete.php start*/
+
+.deleteResults {
+    background-color: rgba(128,128,128,0.5);
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.deleteResults td {
+    border: 1px solid black;
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+.deleteForm p {
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.25em;
+    padding: 5px;
+    text-align: center;
+}
+
+.deleteForm input {
+    color: black;
+    font-family: Bahnschrift Semibold;
+    font-size: 1em;
+}
+
+/*results-delete.php end*/
+
+/*results-add.php start*/
+
+.addResults {
+    background-color: rgba(128,128,128,0.5);
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.addResults td {
+    border: 1px solid black;
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+.addForm input {
+    color: black;
+    font-family: Bahnschrift Semibold;
+    font-size: 1em;
+}
+
+.addForm select {
+    color: black;
+    font-family: Bahnschrift Semibold;
+    font-size: 1em;
+}
+
+/*results-add.php end*/

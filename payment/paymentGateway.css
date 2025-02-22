@@ -1,0 +1,108 @@
+@charset "utf-8";
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100px;
+    background-color:rgb(125, 232, 125);
+  }
+  
+  .container form{
+    padding:20px;
+    width:700px;
+    background: rgb(255, 255, 255);
+    
+  }
+  
+   .title{
+    font-size: 20px;
+    color:rgb(4, 4, 4);
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+   .inputBox{
+    margin:15px 0;
+  }
+  
+  .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+ .inputBox input{
+    width: 100%;
+    border:1px solid rgb(204, 204, 204);
+    padding:10px 15px;
+    font-size: 15px;
+    
+  }
+  
+   .inputBox input:focus{
+    border:1px solid rgb(0, 0, 0);
+  }
+  
+   .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+   .inputBox{
+    margin-top: 5px;
+  }
+  
+   .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 2px rgb(0, 0, 0));
+  }
+  
+
+
+
+
+  a.button{
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-color:rgb(155,155,155,1);
+    border-color:rgb(0,0,0,1);
+    font-size: 30px;
+    margin-top: 10px;
+    border: 1px solid black;
+    
+}
+
+ a.button{
+text-decoration: none;
+}
+
+a.button:hover{
+background-color: aqua;
+}
+
+.error ,.info,.cinfo{
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    list-style-position: inside;
+   
+}
+
+.error{
+    border:2px solid black;
+    color: brown;
+    background-color: pink;
+    
+}
+

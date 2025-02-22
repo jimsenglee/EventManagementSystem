@@ -1,0 +1,150 @@
+form{
+  padding: 10px;
+}
+                  
+table {
+  width: 800px;
+  margin: 100px auto;
+  background-color: white;
+  border: 2px inset black;
+  box-shadow: 0px 0px 20px #66CDAA;
+}
+
+th {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+td,input[type="text"],input[type="number"],select,textarea {
+  font-family: Times New Roman;
+  font-size: 18px;
+  padding: 10px;
+
+  border: 2px solid black;
+}
+
+.left-column{    
+          padding: 20px;
+
+}
+
+select[name="event_category"] {
+  margin-top: 10px;  
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+    border: 2px solid black;
+
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px;
+  margin-right: 10px;
+  color: white;
+  background-color: #808080; 
+  font-weight: 900;
+  font-family: Franklin Gothic Medium	;
+  font-size: 30px;
+  text-align: center;
+  width: 120px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: black;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active {
+box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;  
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tr {
+  background-color: white;
+}
+
+th[colspan="2"] {
+  position: relative;
+}
+
+a{
+        text-decoration: none;
+    color: black;
+}
+
+.back-btn {
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  background-color: #00ccff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+}
+
+.back-btn:hover {
+  background-color: #0b7dda;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.back-btn:focus {
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.4);
+}
+
+.back-btn:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.warning {
+  background-color: pink;
+  border: red solid 3px;
+  height: 60px;
+  font-size: 40px;
+}
+
+.warning-back-btn{
+  position: relative;
+}
+
+.back-btn-2 {
+  position: absolute;
+  top: -8px;
+  right: 0;
+  margin: 20px;
+  background-color: #00ccff;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+}
+
+
+
+
+
+    

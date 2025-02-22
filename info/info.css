@@ -1,0 +1,51 @@
+/*global start*/
+
+.info-title {
+    color: white;
+    font-family: Bahnschrift Semibold;
+    font-size: 3em;
+    text-align: center;
+    margin: 30px;
+}
+
+/*global end*/
+
+/*aboutus.php start*/
+
+.aboutus-content {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.aboutus-content p {
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    margin: 50px;
+}
+
+.aboutus-content h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.aboutus-content a {
+    color: turquoise;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.aboutus-content p:last-of-type {
+    font-style: italic;
+    color: yellow;
+}
+
+/*aboutus.php end*/
+
+/*faq.php start*/
+
+
+
+/*faq.php end*/

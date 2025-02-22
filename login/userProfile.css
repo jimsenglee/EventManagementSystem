@@ -1,0 +1,97 @@
+.profile-pic img{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   border: 3px inset grey;
+   margin-bottom: 40px;
+box-shadow: 0 10px 10px -5px;
+}
+
+.profile-wrapper {
+    position: relative;
+    background-color: #ccffcc;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  text-align: center;
+}
+
+.profile-wrapper table {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.profile-wrapper td {
+  padding: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.edit-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; 
+    overflow: hidden; 
+}
+
+.edit-button:hover {
+    background-color: #0069d9;
+}
+
+.edit-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1); /* Add semi-transparent background */
+    transition: left 0.3s ease-in-out; /* Add animation */
+}
+
+.edit-button:hover::before {
+    left: 0; /* Move the pseudo-element to the right to reveal the hidden text */
+}
+
+.edit-button:active {
+    transform: scale(0.95); /* Add scale transformation on button press */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset; /* Add concave effect */
+}
+
+
+
+
