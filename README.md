@@ -1,6 +1,6 @@
 # Event Management System
 
-This is a web-based Event Management System developed as part of my Final Year Project (FYP). The system is designed to streamline the process of managing events, bookings, and related activities for an organization or institution.
+This is a web-based Event Management System designed to streamline the process of managing events, bookings, and related activities for an organization or institution.
 
 ## Features
 
@@ -57,7 +57,7 @@ This is a web-based Event Management System developed as part of my Final Year P
 
 ## Purpose
 
-This project demonstrates my ability to design and implement a full-stack web application, including user authentication, CRUD operations, and integration with third-party libraries. It is intended to showcase my skills to potential employers and can be referenced in my resume.
+This project demonstrates my ability to design and implement a full-stack web application, including user authentication, CRUD operations, and integration with third-party libraries.
 
 ---
 
