@@ -52,7 +52,6 @@ This is a web-based Event Management System developed as part of my Final Year P
 
 ## Author
 
-- **Name:** Lee Gim Sheng
 - **GitHub:** [jimsenglee](https://github.com/jimsenglee)
 - **Email:** gimsheng.lee@gmail.com
 
